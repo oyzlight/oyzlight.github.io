@@ -1,7 +1,13 @@
+/* 首页背景 */
+.layout_index {
+  background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('/images/1.png');
+  background-size: cover;
+}
+
 /* 文章页背景 */
 .layout_post>#post {
-    /* 以下代表透明度为0.7 可以自行修改*/
-    background: rgba(255, 255, 255, 0);
+  background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('/images/kdqs.png');
+  background-size: cover;
 }
 
 /* 所有页面背景 */
@@ -11,12 +17,5 @@
 .layout_post>#page,
 .layout_post>#post,
 .read-mode .layout_post>#post {
-    /* 以下代表透明度为0.9 */
-    background: rgba(255, 255, 255, .1);
+  background: rgba(255,255,255,0.1);
 }
-
-/*侧边卡片的透明度 */
-:root {
-    --card-bg: rgba(255, 255, 255, .1);
-}
-
