@@ -1,0 +1,4 @@
+/* 让文章内容背景透明 */
+.post-content, .layout, #content-inner, .container {
+  background: transparent !important;
+}
