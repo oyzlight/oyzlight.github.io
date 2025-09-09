@@ -1,4 +1,14 @@
-/* 让文章内容背景透明 */
-.post-content, .layout, #content-inner, .container {
+/* 让主要内容卡片背景透明 */
+.cardHover,
+.layout > div:first-child:not(.nc),
+#recent-posts .recent-post-item,
+#article-container .shuoshuo-item,
+#aside-content .card-widget,
+.layout .pagination > *:not(.space),
+.container,
+#content-inner,
+#post,
+.post-content {
   background: transparent !important;
+  box-shadow: none !important;
 }
